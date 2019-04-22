@@ -22,5 +22,18 @@
     "start": "node ./bin/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "main": "index.js",
+  "bin": {
+    "projetoteste": "server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viniciuscandido94/ProjetoTesteAPINodeJS.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/viniciuscandido94/ProjetoTesteAPINodeJS/issues"
+  },
+  "homepage": "https://github.com/viniciuscandido94/ProjetoTesteAPINodeJS#readme"
 }

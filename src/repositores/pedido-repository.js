@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 const Pedido = mongoose.model('Pedido');
 
 exports.create = async(dados) => {
-    var cliente = new Pedido(dados);
-    await cliente.save();
+    var pedido = new Pedido(dados);
+    await pedido.save();
 }
 
 exports.get = async() => {
